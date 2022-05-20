@@ -1,6 +1,4 @@
-Git é um sistema de código aberto de controle de versão. É utlizado principalmente no desenvolvimento de software, mas pode ser usado para registrar históricos de edições de qualquer tipo de arquivo.
-
-Principais comandos utilizados até o momentos:
+Principais comandos utilizados do git até o momentos:
 
 git init: Cria um subdiretório .git na pasta base do seu projeto. Ele cria um repositório vazio ou transforma uma pasta que você já tem em um repositório.
 
