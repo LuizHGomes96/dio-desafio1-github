@@ -1,0 +1,13 @@
+Como o GIT funciona:
+
+SHA1: (Secure Hash Algorithm) conjunto de funções hash criptográficas projetadas pela NSA que gera um código único de 40 dígitos.
+
+Objetos fundamentais:
+
+ - BLOBS: Os conteúdos ficam guardados dentro do objeto BLOB. Contém meta-dados do Git.
+
+ - TREES: TREES armazenam as BLOBS que por sua vez tem o seu SHA1. Os diretório das TREES podem apontar tanto para os BLOBS quanto para ela mesma. As TREES também possuem SHA1.
+
+ - COMMITs: COMMITS justam todos os objetos, BLOBS e TREES. Os COMMITS	também possuem um timestamp (carimbo de tempo), registrando a data e horário da criação.
+
+Caso você altere um SHA1 dentro de uma BLOB, que estava ligada a uma TREE, o SHA1 modifica a BLOB e a TREE fornecendo um novo código criptografado. E caso esta mesma rede estivesse inteligar a um COMMIT, o SHA1 seria modificado no COMMIT, TREE e BLOB.
