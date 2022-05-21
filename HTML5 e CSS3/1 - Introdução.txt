@@ -1,0 +1,30 @@
+HTML foi criado em 1991.
+
+HTML 1 - 1991
+HTML 2 - 1995
+HTML 3 - 1997
+HTML 4 - 1997
+HTML 5 - 2014
+
+Elemento HTML: 
+{<tag de abertura (atributo)> (conteúdo) <tag de fechamento>}
+
+Estrutura básica:
+
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta>
+	  <title></title>
+	</head>
+	<body>
+	</body>
+</html>
+
+A primeira linha do documento é <!DOCTYPE html>, que não é um elemento html, apenas diz ao navegador que ele está lidando com um arquivos HTML5.
+
+A tag <html> é a raiz do documento, todos os elementos vão estar dentro dela.
+
+A tag <head> contém elementos que seão lidos pelo navegador, como os metadados (ex: charset, que é a codificação de caracteres).
+
+A tag <body> é onde colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.

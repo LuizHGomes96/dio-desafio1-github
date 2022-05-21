@@ -1,0 +1,5 @@
+Uma regra CSS é formada por um seletor ou grupo de seletores, que são elementos HTML e por declarações.
+
+Ex: h1{color: blue}
+
+onde h1 é um seletor e color: blue é uma declaração.

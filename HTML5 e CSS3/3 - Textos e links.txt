@@ -1,0 +1,8 @@
+<p> representa um parágrafo e pode receber textos, imagens, código, vídeos e outros conteúdos.
+
+<a> significa âncora e representa um hyperlink. Atributos utilizados no momento são o href e o target.
+
+<a href=""> representa o hyperlink para onde a âncora aponta, podendo ser um site, um e-mail (prefixo mailto) ou telefone (prefixo tel:).
+
+Targer no momento vai ser usado para abrir os links em outra aba, utilizado da seguinte forma: <a href="" target="_blank">.
+

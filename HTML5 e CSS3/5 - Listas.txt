@@ -1,0 +1,5 @@
+<ul> Cria uma lista não ordenada, onde a ordem dos elementos não é importante e é representada com pontos, círculos ou quadrados.
+
+<ol> Serve para criar listas ordenadas, onde a ordem importa, portanto são representadas por números, algarismos romanos ou letras.
+
+<il> é um item dentro de uma dessas listas, podendo conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
